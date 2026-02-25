@@ -6,7 +6,7 @@ soong_namespace {
 	imports: [
 		"vendor/xiaomi/camera",
 		"vendor/xiaomi/sweet2",
-		"vendor/xiaomi/sm6150-commmon",
+		"vendor/xiaomi/sm6150-common",
 	],
 }
 
