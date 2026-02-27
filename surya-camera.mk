@@ -21,6 +21,7 @@ MIUICAMERA_PATH := vendor/xiaomi/camera
 # Uses MiuiCamera
 $(call soong_config_set,camera,package_name,com.xiaomi.sessionparams.clientName)
 $(call soong_config_set_bool,camera,uses_miui_camera,true)
+$(call soong_config_set,camera,override_format_from_reserved,true)
 
 # Camera property
 PRODUCT_PRODUCT_PROPERTIES += \
