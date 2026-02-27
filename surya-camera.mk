@@ -26,7 +26,6 @@ $(call soong_config_set_bool,camera,uses_miui_camera,true)
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.lens.oem_camera_package=com.android.camera \
     ro.product.mod_device=surya_global \
-    camera.disable_zsl_mode=true \
     ro.miui.build.region=in \
     ro.miui.notch=1
 
