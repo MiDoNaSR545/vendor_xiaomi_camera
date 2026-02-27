@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
      $(CAMERA_PATH)/configs/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt
 
 PRODUCT_COPY_FILES += \
-     $(CAMERA_PATH)/configs/device_features/sweet.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/alioth.xml
+     $(CAMERA_PATH)/configs/camera/device_features/product/etc/device_features/sweet.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/alioth.xml
 
 # MIUI Camera Overlay to Surya and Karna
 PRODUCT_PACKAGES += \
