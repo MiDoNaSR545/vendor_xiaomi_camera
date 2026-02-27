@@ -48,10 +48,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
      $(CAMERA_PATH)/configs/device_features/sweet.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/alioth.xml
 
-# Camera Extensions
-PRODUCT_SYSTEM_PROPERTIES += \
-    ro.camerax.extensions.enabled=true
-
 # MIUI Camera Overlay to Surya and Karna
 PRODUCT_PACKAGES += \
     J20CMiuiCameraOverlay \
